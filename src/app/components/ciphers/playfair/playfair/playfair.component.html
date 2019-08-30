@@ -1,0 +1,41 @@
+<mat-card class="example-card" fxFlex>
+
+  <mat-card-header>
+    <mat-card-title>Playfair</mat-card-title>
+    <mat-card-subtitle>Substituição polialfabética em bloco bigrâmico.</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form class="example-form" fxFlexFill>
+      <mat-form-field fxFlexFill>
+        <input matInput placeholder="Palavra-chave">
+      </mat-form-field>
+
+      <mat-form-field fxFlexFill>
+        <textarea matInput placeholder="Texto claro" rows="4"></textarea>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+
+</mat-card>
+
+<div class="actions-area" fxFlexAlign="center">
+  <mat-card-actions fxLayout="column">
+    <button mat-button>Cifrar &gt;&gt;</button>
+    <button mat-button> &lt;&lt; Decifrar</button>
+  </mat-card-actions>
+</div>
+
+<mat-card class="example-card" fxFlex>
+  <mat-card-header>
+    <mat-card-title>Resultado</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form class="example-form" fxFlexFill>
+      <mat-form-field fxFlexFill>
+        <textarea matInput placeholder="Texto cifrado" rows="8"></textarea>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+</mat-card>
