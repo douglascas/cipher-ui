@@ -9,6 +9,8 @@ export class CiphersComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() { }
+  ngOnInit() { 
+    console.log('Iniciou a aplicação de cifras.')
+  }
 
 }
